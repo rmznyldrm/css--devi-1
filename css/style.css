@@ -1,5 +1,52 @@
-h1 {   
+* {box-sizing:border-box;}
+.header {  
+         
+        overflow: hidden;
+        padding: 20px 99px;
+        text-align: center;
+        background: #a1aca917;
+        color: black;
+        font-size: 12px;
+}
+      
+.header-right{
+        float: right;
+        }
+        
 
-    color: brown;
+.header a {
+    float: left;
+    color: black;
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 18px; 
+    line-height: 25px;
+    border-radius: 4px;
+}
+.header a.logo {
+    font-size: 25px;
+    font-weight: bold;
+    background-color: wheat;
+}
+.header a:hover{
+    background-color: rgba(189, 189, 189, 0.692);
+    color: rgba(0, 0, 0, 0.705);
+}
+
+.article {
+
+    background: rgb(206, 194, 194);
+    box-sizing: border-box;
     
+}
+.link{
+    
+    text-decoration: none;
+    color: black;
+}
+.link:hover{
+
+    background-color: rgba(189, 189, 189, 0.692);
+    color: rgba(0, 0, 0, 0.705);
 }
